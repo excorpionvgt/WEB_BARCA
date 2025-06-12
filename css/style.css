@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@400;600&display=swap');
+
+body {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F6F5;
+    color: #333;
+}
+header {
+    background: linear-gradient(90deg, #004D98, #A50044);
+    color: #FFFFFF;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 3px solid #EDBB00;
+}
+nav a {
+    color: #EDBB00;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #FFFFFF;
+}
+main {
+    padding: 2em;
+}
+section {
+    max-width: 800px;
+    margin: auto;
+}
+h1, h2, h3, h4 {
+    font-family: 'Bebas Neue', cursive, Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+h2 {
+    font-family: 'Bebas Neue', cursive, Verdana, Geneva, Tahoma, sans-serif;
+    color: #A50044;
+}
+.producto, .producto1, .producto2 {
+    border: 2px solid #004D98;
+    padding: 1em;
+    margin: 1em 0;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    box-sizing: border-box;
+}
+.producto img, .producto1 img, .producto2 img {
+    width: 250px;
+    height: auto;
+    margin-right: 0;
+    border-radius: 6px;
+    border: 1px solid #A50044;
+    flex-shrink: 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    table-layout: fixed;
+}
+th, td {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    word-break: break-word;
+    max-width: 220px;
+}
+th {
+    background-color: #004D98;
+    color: #FFFFFF;
+    padding: 0.75em;
+    text-align: left;
+}
+td {
+    border: 2px solid #A50044;
+    text-align: center;
+    padding: 1em;
+    background-color: #FFFFFF;
+    vertical-align: middle;
+    max-width: 220px;
+    box-sizing: border-box;
+}
+td > * {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+tr:last-child td {
+    border-bottom: 2px solid #A50044;
+}
+td img {
+    width: 200px;
+    height: auto;
+    margin: 0 auto 10px auto;
+    border-radius: 6px;
+    border: 1px solid #004D98;
+    display: block;
+}
+td h4, td p {
+    margin: 0.5em 0;
+    text-align: center;
+}
+.descripcion {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+.descripcion h3 {
+    margin-top: 0;
+    color: #004D98;
+    font-family: 'Bebas Neue', cursive, Verdana, Geneva, Tahoma, sans-serif;
+}
+.descripcion p {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    color: #333;
+}
+footer {
+    background: linear-gradient(90deg, #A50044, #004D98);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+    border-top: 3px solid #EDBB00;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: #A50044;
+    border-radius: 10px;
+}
